@@ -68,3 +68,11 @@ img{
     height: 40%;
     width: 30%;
 }
+
+.Gridcontainer{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr) ;
+}
